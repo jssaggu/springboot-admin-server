@@ -1,8 +1,9 @@
 # SpringBoot Admin Server
 
+## How to enable clients
 Simply start the server and add the following code in client repos so they can connect.
 
-## application.yml
+### application.yml
 ```yaml
 spring:
   boot:
@@ -13,7 +14,7 @@ spring:
         auto-registration: true
 ```
 
-## Maven Dependency 
+### Maven Dependency 
 
 ```xml
     <dependency>
@@ -22,3 +23,7 @@ spring:
         <version>3.0.0-M5</version>
     </dependency>
 ```
+
+## Accessing Server
+
+http://localhost:9090/ (Check port in application.yml)
